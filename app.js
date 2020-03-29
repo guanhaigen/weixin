@@ -4,7 +4,7 @@ App({
       this.globalData.userInfo = JSON.parse(wx.getStorageSync('userInfo'));
       this.globalData.token = wx.getStorageSync('token');
     } catch (e) {
-      //console.log(e);
+      console.log(e);
     }
   },
 
